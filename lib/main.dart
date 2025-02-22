@@ -1,8 +1,8 @@
 
-import 'package:bmi/Login.dart';
+import 'package:bmi/features/view/Login.dart';
 import 'package:flutter/material.dart';
 
-import 'project.dart';
+import 'features/view/project.dart';
 
 main(){
   runApp(MyApp());

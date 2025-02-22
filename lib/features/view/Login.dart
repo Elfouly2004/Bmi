@@ -1,8 +1,8 @@
-import 'package:bmi/project.dart';
+import 'package:bmi/features/view/project.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'main.dart';
+import '../../main.dart';
 
 class loginpage extends StatefulWidget{
   @override
@@ -127,7 +127,7 @@ class _loginpageState extends State<loginpage> {
               if(formkey.currentState!.validate()==true&&formkey1.currentState!.validate()==true){
              Navigator.push(context,
                  MaterialPageRoute(builder: (context) {
-                   return Firstpage(name);
+                   return FirstPage(name);
                  }
                  )
              );
@@ -149,7 +149,6 @@ class _loginpageState extends State<loginpage> {
 
 
   )
-
 
            ],
          ),
